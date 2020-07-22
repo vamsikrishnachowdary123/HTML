@@ -1,0 +1,30 @@
+.Cnavbar{
+ 
+    background-color:blueviolet;
+width:100%;
+height:50px;
+
+}
+.Clogo
+{
+border-radius: 50%;
+
+}
+.CsignIn
+{
+
+    text-align: center;
+}
+
+
+input {
+    width: 50%;
+    padding: 3px 20px;
+    margin-top:5%;
+    box-sizing: border-box;
+  }
+  .Cforgetpass
+  {
+
+    margin-left: 26%;
+  }

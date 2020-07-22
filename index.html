@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/style.css">
+<script src="main/script.js"></script>
+</head>
+<body>
+    <!-- Start Of Navbar -->
+<div class="d-flex flex-row flex-wrap Cnavbar" >
+   <div class="Clogo pl-3"><img src="./img/logo.png" alt="logo"></div> 
+    <div class="text-center " style="margin-left:40%;color:white;font:normal bold 2.5rem/3rem Roboto">Sign In</div>
+    <div class="ml-auto p-2" style="color:white;">X</div>
+</div>
+<!-- End Of Navbar -->
+
+
+<section>
+<!-- <div class="text-center Cinput">
+
+    <input type="email" name="Email">
+</div> -->
+<form action="" name="loginform" id="loginform">
+<div class="container Cinput">
+    <div class="row  text-center">
+       
+        <div class="col-lg-12 col-xl-12 col-md-12">
+            <input type="email" name="email" placeholder="mail@example.com"><br>
+            <h6 id="email_error"></h6>
+        </div>
+
+        <div class="col-lg-12 col-xl-12 col-md-12">
+            <input type="password" name="password" placeholder="password"><br>
+            <h6 id="password_error"></h6>
+        </div>
+        <div class="col-lg-12 col-xl-12 col-md-12">
+            <input type="submit" value="SIGN IN" onclick=" return formValidate()">
+        </div>
+       
+        <a href="" class="Cforgetpass"><b >forgot your password?</b></a>
+        
+        <a href="" style="margin-left:28%"><b >Register!</b></a>
+    </div>
+</div>
+</form>
+
+</section>
+<div class="text-center" style="margin-top:1.5%;">-----------------OR-----------------</div>
+
+<section>
+
+    <div class="container Cinput">
+
+        <div class="row text-center">
+            <div class="col-lg-12 col-xl-12 col-md-12">
+                <input type="button" value="Google"  style="background-color:orangered;color:whitesmoke">
+            </div>
+            <div class="col-lg-12 col-xl-12 col-md-12" >
+                <input type="button" value="Facebook" style="background-color:blue;color:whitesmoke">
+            </div>
+            <div class="col-lg-12 col-xl-12 col-md-12">
+                <input type="button" value="<EPAM LOGIN>"  style="background-color:greenyellow;color:white">
+            </div>
+        </div>
+    </div>
+
+
+</section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
